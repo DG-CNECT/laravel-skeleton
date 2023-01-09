@@ -56,7 +56,7 @@
                             </svg>
 
                             @auth
-                                Logged in !
+                                {{auth()->user()->name}}
                             @elseauth
                                 Log In
                             @endauth
